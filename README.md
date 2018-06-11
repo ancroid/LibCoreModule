@@ -1,6 +1,8 @@
 # libraryCore （图书馆爬虫工具类集合）
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
+利用Retrofit+Jsoup实现，目前仅适用于中南民族大学图书馆。
+
 ---
 
 # 下载
@@ -62,4 +64,5 @@
 ```
 
 更多API使用请参考项目中com.newth.libcoremoudle.debug.MainActivity的调用。
+
 关于图书馆接口使用机制请参考：https://www.zybuluo.com/universal/note/1179033
