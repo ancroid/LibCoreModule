@@ -5,9 +5,9 @@
 
 # 下载
 
-- 下载project导入其中的module：libraryCore。
+1）下载project导入其中的module：libraryCore。
 
-- or通过maven
+2）通过maven
 
     <dependency>
       <groupId>com.ancroid</groupId>
@@ -16,7 +16,7 @@
       <type>pom</type>
     </dependency>
 
-- or通过gradle
+3）通过gradle
 
     implementation 'com.ancroid:libraryCore:1.0.0'
 
