@@ -11,8 +11,8 @@ public class BookInfoUtil {
     /**
      * 从学校图书馆获取数据
      *
-     * @param marcNo
-     *
+     * @param marcNo:图书对应的MarcNO值
+     * @param bookInfoResponse:回调接口
      */
     public static void getBookInfoFromLib(String  marcNo, final OnBookInfoResponse bookInfoResponse) {
         InfoService getBookServise = RetrofitManager.getInstance().getService(InfoService.class,null,RetrofitManager.ConvertType_String);
