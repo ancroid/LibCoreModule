@@ -62,6 +62,7 @@
         }
     });
 ```
+关于返回值的参数解释在各个bean中均有注释。
 
 更多API使用请参考项目中com.newth.libcoremoudle.debug.MainActivity的调用。
 
